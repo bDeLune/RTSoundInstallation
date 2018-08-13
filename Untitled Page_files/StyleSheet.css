@@ -1,0 +1,80 @@
+﻿.DataGrid
+{
+	width:100%;
+	border-color:#CCCCCC;
+	font-family:Verdana;
+	font-size:8pt;
+	padding:20px;	
+}
+
+.DataGridHeader
+{
+	font-weight:bold;
+	color:White;
+	background-color:#006699;
+	height:20px;
+}
+
+
+
+.DataGridItem
+{
+	color:#000066;
+	text-align:Right;
+}
+
+.DataGridItemMainCol
+{
+	color:#000066;
+	text-align:Right;
+}
+
+.DataGridPager
+{
+	color:#000066;
+}
+BODY
+{
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+}
+
+A.parameterlink:link
+{
+    COLOR: white;
+    FONT-FAMILY: arial,sans-serif;
+    TEXT-DECORATION: underline
+}
+A.parameterlink:visited
+{
+    COLOR: white;
+    FONT-FAMILY: arial,sans-serif;
+    TEXT-DECORATION: underline
+}
+A.parameterlink:hover
+{
+    COLOR: red;
+    FONT-FAMILY: arial,sans-serif;
+    TEXT-DECORATION: underline
+}
+
+A.datalink:link
+{
+    COLOR: blue;
+    FONT-FAMILY: arial,sans-serif;
+    TEXT-DECORATION: underline
+}
+A.datalink:visited
+{
+    COLOR: blue;
+    FONT-FAMILY: arial,sans-serif;
+    TEXT-DECORATION: underline
+}
+A.datalink:hover
+{
+    COLOR: red;
+    FONT-FAMILY: arial,sans-serif;
+    TEXT-DECORATION: underline
+}

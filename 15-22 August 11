@@ -1,0 +1,839 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>
+   Untitled Page
+  </title>
+  <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css"/>
+  <script language="javascript" type="text/javascript">
+   function resizeToContent(){
+        var x =0;
+        var y =this.document.body.scrollHeight;
+        while (x < y){
+        x+=1;
+        }
+        parent.document.getElementById("DataIFrame").style.height=x + 40;
+        }
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   function popUp(URL) {
+			day = new Date();
+			id = day.getTime();
+			eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=705,height=450,left = 150,top = 10');");
+			}
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   function popUpWL(URL) {
+			day = new Date();
+			id = day.getTime();
+			eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=1030,height=540,left = 150,top = 10');");
+			}
+  </script>
+  <script language="JavaScript">
+   function popUpAll(ProjectID,Inst) {popUp('http://webapps.marine.ie/IWPGraphs/Default.aspx?Type=2&ProjectId=' + ProjectID + '&Inst=' + Inst);}
+  </script>
+ </head>
+ <body>
+  <form action="default.aspx?ProjectID=3" id="form1" method="post" name="form1">
+   <input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="/wEPDwULLTEwMTA4NTY2NTJkZINsj4kMydanOSbdanDXeVH2hpSj"/>
+   <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="2CAF9C78"/>
+   <div style="position:relative;left:0px;width:100%; height:700px;overflow:auto; top: 0px;">
+    <table bgcolor="White" border="1" cellpadding="3" cellspacing="0" class="DataGrid" height="400" id="MainDataGrid" rules="all" width="100%">
+     <tr class="DataGridHeader">
+      <td align="left">
+       Site
+      </td>
+      <td>
+       Date (UTC)
+      </td>
+      <td>
+       Temp.  (°C)
+      </td>
+      <td>
+       Pressure (mb)
+      </td>
+      <td>
+       Water Level - OD Malin (m)
+      </td>
+      <td>
+       Water Level - LAT (m)
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Aranmore Island - Leabgarrow" target="_top">
+         Aranmore Island - Leabgarrow
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:10:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Aranmore Island - Leabgarrow&amp;date=13 Aug 2018 14:10')">
+        16.600
+       </a>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=pressure&amp;gauge=Aranmore Island - Leabgarrow&amp;date=13 Aug 2018 14:10')">
+        1011.000
+       </a>
+      </td>
+      <td>
+       -1.522
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Aranmore Island - Leabgarrow&amp;date=13 Aug 2018 14:10')">
+        1.029
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Ballycotton Harbour" target="_top">
+         Ballycotton Harbour
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:05:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Ballycotton Harbour&amp;date=13 Aug 2018 14:05')">
+        15.500
+       </a>
+      </td>
+      <td>
+      </td>
+      <td>
+       -1.890
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Ballycotton Harbour&amp;date=13 Aug 2018 14:05')">
+        0.782
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Ballyglass Harbour" target="_top">
+         Ballyglass Harbour
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:10:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Ballyglass Harbour&amp;date=13 Aug 2018 14:10')">
+        15.700
+       </a>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=pressure&amp;gauge=Ballyglass Harbour&amp;date=13 Aug 2018 14:10')">
+        800.400
+       </a>
+      </td>
+      <td>
+       -1.184
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Ballyglass Harbour&amp;date=13 Aug 2018 14:10')">
+        1.115
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Castletownbere Port" target="_top">
+         Castletownbere Port
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:05:00
+      </td>
+      <td>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=pressure&amp;gauge=Castletownbere Port&amp;date=13 Aug 2018 14:05')">
+        1014.000
+       </a>
+      </td>
+      <td>
+       -0.850
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Castletownbere Port&amp;date=13 Aug 2018 14:05')">
+        1.591
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Dingle Harbour" target="_top">
+         Dingle Harbour
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:10:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       -0.897
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Dingle Harbour&amp;date=13 Aug 2018 14:10')">
+        1.801
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Dublin Port" target="_top">
+         Dublin Port
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:05:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       1.672
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Dublin Port&amp;date=13 Aug 2018 14:05')">
+        4.483
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Dunmore East Harbour" target="_top">
+         Dunmore East Harbour
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:10:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Dunmore East Harbour&amp;date=13 Aug 2018 14:10')">
+        16.200
+       </a>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=pressure&amp;gauge=Dunmore East Harbour&amp;date=13 Aug 2018 14:10')">
+        1011.600
+       </a>
+      </td>
+      <td>
+       -1.955
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Dunmore East Harbour&amp;date=13 Aug 2018 14:10')">
+        0.783
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Galway Port" target="_top">
+         Galway Port
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:05:00
+      </td>
+      <td>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=pressure&amp;gauge=Galway Port&amp;date=13 Aug 2018 14:05')">
+        1012.000
+       </a>
+      </td>
+      <td>
+       -1.383
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Galway Port&amp;date=13 Aug 2018 14:05')">
+        1.994
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Howth Harbour" target="_top">
+         Howth Harbour
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:05:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Howth Harbour&amp;date=13 Aug 2018 14:05')">
+        17.020
+       </a>
+      </td>
+      <td>
+      </td>
+      <td>
+       1.280
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Howth Harbour&amp;date=13 Aug 2018 14:05')">
+        4.237
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Inishmore" target="_top">
+         Inishmore
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:05:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       -1.207
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Inishmore&amp;date=13 Aug 2018 14:05')">
+        1.794
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Killybegs Port" target="_top">
+         Killybegs Port
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:10:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Killybegs Port&amp;date=13 Aug 2018 14:10')">
+        15.800
+       </a>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=pressure&amp;gauge=Killybegs Port&amp;date=13 Aug 2018 14:10')">
+        1009.000
+       </a>
+      </td>
+      <td>
+       -1.524
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Killybegs Port&amp;date=13 Aug 2018 14:10')">
+        1.067
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Kilrush Lough" target="_top">
+         Kilrush Lough
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:05:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       -1.746
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Kilrush Lough&amp;date=13 Aug 2018 14:05')">
+        1.534
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Malin Head - Portmore Pier" target="_top">
+         Malin Head - Portmore Pier
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:00:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       -1.816
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Malin Head - Portmore Pier&amp;date=13 Aug 2018 14:00')">
+        0.486
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=OPW Arklow Harbour" target="_top">
+         OPW Arklow Harbour
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 12:45:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       0.172
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=OPW Arklow Harbour&amp;date=13 Aug 2018 12:45')">
+        1.302
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=OPW Fenit" target="_top">
+         OPW Fenit
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 13:00:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       1.157
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=OPW Fenit&amp;date=13 Aug 2018 13:00')">
+        4.100
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=OPW Port Oriel" target="_top">
+         OPW Port Oriel
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 13:00:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       2.203
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=OPW Port Oriel&amp;date=13 Aug 2018 13:00')">
+        5.275
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=OPW Ringaskiddy" target="_top">
+         OPW Ringaskiddy
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 12:45:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       -2.445
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=OPW Ringaskiddy&amp;date=13 Aug 2018 12:45')">
+        0.181
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=OPW Rossaveel Pier" target="_top">
+         OPW Rossaveel Pier
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 13:00:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       -1.977
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=OPW Rossaveel Pier&amp;date=13 Aug 2018 13:00')">
+        0.897
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Sligo" target="_top">
+         Sligo
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:06:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       -1.493
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Sligo&amp;date=13 Aug 2018 14:06')">
+        0.969
+       </a>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Wexford Harbour" target="_top">
+         Wexford Harbour
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:05:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Wexford Harbour&amp;date=13 Aug 2018 14:05')">
+        -3276.700
+       </a>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=pressure&amp;gauge=Wexford Harbour&amp;date=13 Aug 2018 14:05')">
+        1012.000
+       </a>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Wexford Harbour&amp;date=13 Aug 2018 14:05')">
+        -1.169
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Howth Harbour 2" target="_top">
+         Howth Harbour 2
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:05:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Howth Harbour 2&amp;date=13 Aug 2018 14:05')">
+        1.485
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Newport - Black River" target="_top">
+         Newport - Black River
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 08:00:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Newport - Black River&amp;date=13 Aug 2018 08:00')">
+        14.200
+       </a>
+      </td>
+      <td>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Newport - Black River&amp;date=13 Aug 2018 08:00')">
+        0.261
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Newport - Burrishoole" target="_top">
+         Newport - Burrishoole
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:00:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Newport - Burrishoole&amp;date=13 Aug 2018 14:00')">
+        0.329
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Newport - Furnace" target="_top">
+         Newport - Furnace
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 13:00:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Newport - Furnace&amp;date=13 Aug 2018 13:00')">
+        18.200
+       </a>
+      </td>
+      <td>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Newport - Furnace&amp;date=13 Aug 2018 13:00')">
+        1.276
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Newport - Glendahurk" target="_top">
+         Newport - Glendahurk
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 12:00:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Newport - Glendahurk&amp;date=13 Aug 2018 12:00')">
+        15.600
+       </a>
+      </td>
+      <td>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Newport - Glendahurk&amp;date=13 Aug 2018 12:00')">
+        0.282
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Newport - Mill Race" target="_top">
+         Newport - Mill Race
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 06:00:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Newport - Mill Race&amp;date=13 Aug 2018 06:00')">
+        17.100
+       </a>
+      </td>
+      <td>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Newport - Mill Race&amp;date=13 Aug 2018 06:00')">
+        0.483
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Newport - Salmon Leap" target="_top">
+         Newport - Salmon Leap
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:05:00
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Newport - Salmon Leap&amp;date=13 Aug 2018 14:05')">
+        10.589
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Newport - Tarsaghaun" target="_top">
+         Newport - Tarsaghaun
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 08:00:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Newport - Tarsaghaun&amp;date=13 Aug 2018 08:00')">
+        13.800
+       </a>
+      </td>
+      <td>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Newport - Tarsaghaun&amp;date=13 Aug 2018 08:00')">
+        0.347
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Newport - Yellow River" target="_top">
+         Newport - Yellow River
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 08:00:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Newport - Yellow River&amp;date=13 Aug 2018 08:00')">
+        15.100
+       </a>
+      </td>
+      <td>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Newport - Yellow River&amp;date=13 Aug 2018 08:00')">
+        0.083
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+     <tr align="right" class="DataGridItem">
+      <td align="left">
+       <b>
+        <a class="datalink" href="http://www.marine.ie/Home/site-area/data-services/real-time-observations/tidal-observations-0?instrumentname=Wolftone Bridge" target="_top">
+         Wolftone Bridge
+        </a>
+       </b>
+      </td>
+      <td>
+       13/08/2018 14:00:00
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=watertemp&amp;gauge=Wolftone Bridge&amp;date=13 Aug 2018 14:00')">
+        18.100
+       </a>
+      </td>
+      <td>
+      </td>
+      <td>
+       <a class="datalink" href="javascript:popUpWL('http://webapps.marine.ie/IrishTidesChartingApplication/ViewGraph.aspx?chart=waterlevel&amp;gauge=Wolftone Bridge&amp;date=13 Aug 2018 14:00')">
+        0.882
+       </a>
+      </td>
+      <td>
+      </td>
+     </tr>
+    </table>
+    <br/>
+   </div>
+  </form>
+ </body>
+</html>
